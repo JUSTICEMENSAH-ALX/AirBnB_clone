@@ -84,61 +84,111 @@ print(NewMod.updated_at)
 Directory Tree Structure For Phase #1 of HBnB Clone:
 .
 ├── AUTHORS
+	
 ├── console.py
+	
 ├── models
+	
 │   ├── amenity.py
+	
 │   ├── base_model.py
+	
 │   ├── city.py
+	
 │   ├── engine
+	
 │   │   ├── file_storage.py
+	
 │   │   ├── __init__.py
+	
 │   │   └── __pycache__
 │   │       ├── file_storage.cpython-34.pyc
+	
 │   │       └── __init__.cpython-34.pyc
+	
 │   ├── __init__.py
+	
 │   ├── place.py
+	
 │   ├── __pycache__
+	
 │   │   ├── amenity.cpython-34.pyc
+	
 │   │   ├── base_model.cpython-34.pyc
-│   │   ├── city.cpython-34.pyc
+	
+	│   │   ├── city.cpython-34.pyc
+	
 │   │   ├── __init__.cpython-34.pyc
+	
 │   │   ├── place.cpython-34.pyc
+	
 │   │   ├── review.cpython-34.pyc
+	
 │   │   ├── state.cpython-34.pyc
+	
 │   │   └── user.cpython-34.pyc
+	
 │   ├── review.py
+	
 │   ├── state.py
+	
 │   └── user.py
+	
 ├── README.md
+	
 └── tests
+	
     └── test_models
+	
         ├── __init__.py
+	
         ├── __pycache__
+	
         │   ├── __init__.cpython-34.pyc
+	
         │   ├── test_amenity.cpython-34.pyc
+	
         │   ├── test_base_model.cpython-34.pyc
+	
         │   ├── test_city.cpython-34.pyc
+	
         │   ├── test_place.cpython-34.pyc
+	
         │   ├── test_review.cpython-34.pyc
+	
         │   ├── test_state.cpython-34.pyc
+	
         │   └── test_user.cpython-34.pyc
+	
         ├── test_amenity.py
+	
         ├── test_base_model.py
+	
         ├── test_city.py
+	
         ├── test_engine
+	
         │   ├── __init__.py
+	
         │   ├── __pycache__
+	
         │   │   ├── __init__.cpython-34.pyc
+	
         │   │   └── test_file_storage.cpython-34.pyc
+	
         │   └── test_file_storage.py
+	
         ├── test_place.py
+	
         ├── test_review.py
+	
         ├── test_state.py
+	
         └── test_user.py
 
 Files
 File Name	Description
-README.md	A description of the Holberton AirBnB Project
+README.md	A description of the ALX AirBnB Project
 AUTHORS	A listing of the project contributors
 console.py	The program to launch the HBNB console
 basemodel.py	Defines the BaseModel Class
