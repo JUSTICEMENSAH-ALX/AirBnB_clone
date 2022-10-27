@@ -329,16 +329,7 @@ guillaume@ubuntu:~/AirBnB$ ./test_save_reload_user.py
 [User] (fce12f8a-fdb6-439a-afe8-2881754de71c) {'password': 'root', 'created_at': datetime.datetime(2017, 9, 28, 21, 12, 19, 611354), 'email': 'airbnb_2@ALXshool.com', 'updated_at': datetime.datetime(2017, 9, 28, 21, 12, 19, 611368), 'id': 'fce12f8a-fdb6-439a-afe8-2881754de71c', 'first_name': 'John'}
 guillaume@ubuntu:~/AirBnB$
 guillaume@ubuntu:~/AirBnB$ cat file.json ; echo ""
-{"BaseModel.af9b4cbd-2ce1-4e6e-8259-f578097dd15f": {"updated_at": "2017-09-28T21:11:12.971544", "__class__": "BaseModel", "id": "af9b4cbd-2ce1-4e6e-8259-f578097dd15f", "created_at": "2017-09-28T21:11:12.971521"}, "User.38f22813-2753-4d42-b37c-57a17f1e4f88": {"password": "63a9f0ea7bb98050796b649e85481845", "created_at": "2017-09-28T21:11:42.848279", "email": "airbnb@ALXshool.com", "id": "38f22813-2753-4d42-b37c-57a17f1e4f88", "last_name": "ALX", "updated_at": "2017-09-28T21:11:42.848291", "first_name": "Betty", "__class__": "User"}, "User.d0ef8146-4664-4de5-8e89-096d667b728e": {"password": "63a9f0ea7bb98050796b649e85481845", "created_at": "2017-09-28T21:11:42.848280", "email": "airbnb_2@ALXshool.com", "id": "d0ef8146-4664-4de5-8e89-096d667b728e", "updated_at": "2017-09-28T21:11:42.848294", "first_name": "John", "__class__": "User"}, "BaseModel.9bf17966-b092-4996-bd33-26a5353cccb4": {"updated_at": "2017-09-28T21:11:14.963058", "__class__": "BaseModel", "id": "9bf17966-b092-4996-bd33-26a5353cccb4", "created_at": "2017-09-28T21:11:14.963049"}, "BaseModel.a42ee380-c959-450e-ad29-c840a898cfce": {"updated_at": "2017-09-28T21:11:15.504296", "__class__": "BaseModel", "id": "a42ee380-c959-450e-ad29-c840a898cfce", "created_at": "2017-09-28T21:11:15.504287"}, "BaseModel.38a22b25-ae9c-4fa9-9f94-59b3eb51bfba": {"updated_at": "2017-09-28T21:11:13.753347", "__class__": "BaseModel", "id": "38a22b25-ae9c-4fa9-9f94-59b3eb51bfba", "created_at": "2017-09-28T21:11:13.753337"}, "BaseModel.2bf3ebfd-a220-49ee-9ae6-b01c75f6f6a4": {"updated_at": "2017-09-28T21:11:14.333862", "__class__": "BaseModel", "id": "2bf3ebfd-a220-49ee-9ae6-b01c75f6f6a4", "created_at": "2017-09-28T21:11:14.333852"}, "User.246c227a-d5c1-403d-9bc7-6a47bb9f0f68": {"password": "root", "created_at": "2017-09-28T21:12:19.611352", "email": "airbnb@ALXshool.com", "id": "246c227a-d5c1-403d-9bc7-6a47bb9f0f68", "last_name": "ALX", "updated_at": "2017-09-28T21:12:19.611363", "first_name": "Betty", "__class__": "User"}, "User.fce12f8a-fdb6-439a-afe8-2881754de71c": {"password": "root", "created_at": "2017-09-28T21:12:19.611354", "email": "airbnb_2@ALXshool.com", "id": "fce12f8a-fdb6-439a-afe8-2881754de71c", "updated_at": "2017-09-28T21:12:19.611368", "first_name": "John", "__class__": "User"}}
-9. More classes!
-Write all those classes that inherit from BaseModel:
-State (models/state.py):
-Public class attributes:
-name: string - empty string
-City (models/city.py):
-Public class attributes:
-state_id: string - empty string: it will be the State.id
-name: string - empty string
+{
 Amenity (models/amenity.py):
 Public class attributes:
 name: string - empty string
@@ -365,11 +356,7 @@ Update FileStorage to manage correctly serialization and deserialization of all 
 Update your command interpreter (console.py) to allow those actions: show, create, destroy, update and all with all classes created previously.
 11. All instances by class name
 Update your command interpreter (console.py) to retrieve all instances of a class by using: .all()
-guillaume@ubuntu:~/AirBnB$ ./console.py
-(hbnb) User.all()
-[[User] (246c227a-d5c1-403d-9bc7-6a47bb9f0f68) {'first_name': 'Betty', 'last_name': 'ALX', 'created_at': datetime.datetime(2017, 9, 28, 21, 12, 19, 611352), 'updated_at': datetime.datetime(2017, 9, 28, 21, 12, 19, 611363), 'password': '63a9f0ea7bb98050796b649e85481845', 'email': 'airbnb@ALXshool.com', 'id': '246c227a-d5c1-403d-9bc7-6a47bb9f0f68'}, [User] (38f22813-2753-4d42-b37c-57a17f1e4f88) {'first_name': 'Betty', 'last_name': 'ALX', 'created_at': datetime.datetime(2017, 9, 28, 21, 11, 42, 848279), 'updated_at': datetime.datetime(2017, 9, 28, 21, 11, 42, 848291), 'password': 'b9be11166d72e9e3ae7fd407165e4bd2', 'email': 'airbnb@ALXshool.com', 'id': '38f22813-2753-4d42-b37c-57a17f1e4f88'}]
-12. Count instances
-Update your command interpreter (console.py) to retrieve the number of instances of a class: .count().
+ss: .count().
 guillaume@ubuntu:~/AirBnB$ ./console.py
 (hbnb) User.count()
 2
@@ -403,20 +390,7 @@ guillaume@ubuntu:~/AirBnB$ ./console.py
 [User] (38f22813-2753-4d42-b37c-57a17f1e4f88) {'age': 89, 'first_name': 'John', 'last_name': 'ALX', 'created_at': datetime.datetime(2017, 9, 28, 21, 11, 42, 848279), 'updated_at': datetime.datetime(2017, 9, 28, 21, 15, 32, 299055), 'password': 'b9be11166d72e9e3ae7fd407165e4bd2', 'email': 'airbnb@ALXshool.com', 'id': '38f22813-2753-4d42-b37c-57a17f1e4f88'}
 16. Update from dictionary
 Update your command interpreter (console.py) to update an instance based on his ID with a dictionary: .update(, ).
-guillaume@ubuntu:~/AirBnB$ ./console.py
-(hbnb) User.show("38f22813-2753-4d42-b37c-57a17f1e4f88")
-[User] (38f22813-2753-4d42-b37c-57a17f1e4f88) {'age': 23, 'first_name': 'Bob', 'last_name': 'ALX', 'created_at': datetime.datetime(2017, 9, 28, 21, 11, 42, 848279), 'updated_at': datetime.datetime(2017, 9, 28, 21, 15, 32, 299055), 'password': 'b9be11166d72e9e3ae7fd407165e4bd2', 'email': 'airbnb@ALXshool.com', 'id': '38f22813-2753-4d42-b37c-57a17f1e4f88'}
-(hbnb)
-(hbnb) User.update("38f22813-2753-4d42-b37c-57a17f1e4f88", {'first_name': "John", "age": 89})
-(hbnb)
-(hbnb) User.show("38f22813-2753-4d42-b37c-57a17f1e4f88")
-[User] (38f22813-2753-4d42-b37c-57a17f1e4f88) {'age': 89, 'first_name': 'John', 'last_name': 'ALX', 'created_at': datetime.datetime(2017, 9, 28, 21, 11, 42, 848279), 'updated_at': datetime.datetime(2017, 9, 28, 21, 17, 10, 788143), 'password': 'b9be11166d72e9e3ae7fd407165e4bd2', 'email': 'airbnb@ALXshool.com', 'id': '38f22813-2753-4d42-b37c-57a17f1e4f88'}
-17. Unittests for the Console!
-Write all unittests for console.py, all features!
-Part 2: 0x01. AirBnB clone - Web static
-
-
-Background Context
+guillaume@ubuntu:~/AirBnB$ ./conso
 Web static, what?
 
 Now that you have a command interpreter for managing your AirBnB objects, it’s time to make them alive!
@@ -871,6 +845,6 @@ Repo:
 GitHub repository: AirBnB_clone Directory: web_static File: 103-index.html, styles/103-common.css, styles/103-header.css, styles/103-footer.css, styles/103-filters.css, styles/103-places.css, images/
 
 AUTHORS
-1. JUSTICE MENSAH BRAY MEWUBE[JUSTICEMENSAH-ALX]
+1. JUSTICE MENSAH BRAY MEWUBE[JUSTICEMENSAH-ALX][TWITTER@JUSTICEMBLAY]
 2. HARUNA ZAKARIA[HARUNAZAKARIA]
 
