@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/python
 """ testing Amenity """
 import unittest
 import pep8
