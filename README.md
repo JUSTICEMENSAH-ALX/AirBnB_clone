@@ -305,7 +305,7 @@ Ay"
 2dd6ef5c-467c-4f82-9521-a772ea7d84e9
 (hbnb) all BaseModel
 ["[BaseModel] (2dd6ef5c-467c-4f82-9521-a772ea7d84e9) {'id': '2dd6ef5c-467c-4f82-9521-a772ea7d84e9', 'created_at': datetime.dat ea
-** no instance found **8) {'id': '38f22813-2753-4d42-b37c-57a17f1e4f88', 'created_at': datetime.datetime(2017, 9, 28, 21, 11, 42, 848279), 'updated_at': datetime.datetime(2017, 9, 28, 21, 11, 42, 848291), 'email': 'airbnb@ALXshool.com', 'first_name': 'Betty', 'last_name': 'ALX', 'password': 'root'}
+** no instan     ce found **8) {'id': '38f22813-2753-4d42-b37c-57a17f1e4f88', 'created_at': datetime.datetime(2017, 9, 28, 21, 11, 42, 848279), 'updated_at': datetime.datetime(2017, 9, 28, 21, 11, 42, 848291), 'email': 'airbnb@ALXshool.com', 'first_name': 'Betty', 'last_name': 'ALX', 'password': 'root'}
 -- Create a new User 2 --
 [User] (d0ef8146-4664-4de5-8e89-096d667b728e) {'id': 'd0ef8146-4664-4de5-8e89-096d667b728e', 'created_at': datetime.datetime(2017, 9, 28, 21, 11, 42, 848280), 'updated_at': datetime.datetime(2017, 9, 28, 21, 11, 42, 848294), 'email': 'airbnb2@ALXshool.com', 'first_name': 'John', 'password': 'root'}
 guillaume@ubuntu:~/AirBnB$
