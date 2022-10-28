@@ -11,7 +11,9 @@ THIS IS A GROUP PROJECT BY SIR JUSTO AND HARUNZY COLLECTIONS
 
 Part 1 of AirBnB Clone project @ALX
 
-The goal of this project is to deploy a server with a simple copy of the AirBnB web app to demonstrate technical grasp (dare we say mastery?) of both front & backend development.
+The goal of this project is to deploy a server with a simple copy of the 
+AirBnB web app to demonstrate technical grasp (dare we say mastery?) of
+both front & backend development.
 
 The overall Project scope is:
 
